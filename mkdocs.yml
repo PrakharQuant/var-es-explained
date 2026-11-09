@@ -29,6 +29,14 @@ markdown_extensions:
 plugins:
   - search
 
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js
+  - javascripts/katex.js
+
 nav:
   - Home: index.md
   - 1. Why risk capital: 01_why_risk_capital.md
