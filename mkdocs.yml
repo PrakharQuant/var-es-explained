@@ -1,0 +1,52 @@
+site_name: VaR & Expected Shortfall Explained
+site_description: Beginner-friendly tutorial on VaR and ES using Bharat Demo Bank
+site_author: Prakhar
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: amber
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.math.katex
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - 1. Why risk capital: 01_why_risk_capital.md
+  - 2. VaR by hand: 02_var_by_hand.md
+  - 3. ES by hand: 03_es_by_hand.md
+  - 4. Three methods: 04_three_methods.md
+  - 5. Why VaR fails: 05_why_var_fails.md
+  - 6. Regulatory norms: 06_regulatory.md
+  - 7. Capital calculation: 07_capital.md
+  - 8. Backtesting: 08_backtesting.md
+  - 9. Limitations: 09_limitations.md
+  - 10. Exercises & Glossary: 10_exercises.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/search/results/all/?keywords=prakhar
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/search?q=prakhar
+    - icon: fontawesome/solid/envelope
+      link: mailto:bestofprakhar@gmail.com
