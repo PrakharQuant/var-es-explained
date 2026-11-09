@@ -4,7 +4,7 @@ Tests that verify the library against hand-computed answers on tiny examples.
 
 import numpy as np
 import pytest
-from src.varES import historical_var, historical_es, parametric_var
+from varES import historical_var, historical_es, parametric_var
 
 
 def test_historical_var_ten_losses():
